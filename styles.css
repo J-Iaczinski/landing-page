@@ -16,7 +16,7 @@ nav ul {
   display: flex;
   align-items: center;
   gap: 25px;
-  padding: 20px 12% 10px;
+  padding: 20px 24% 10px;
 }
 
 nav a {
@@ -46,7 +46,7 @@ nav a {
   justify-content: space-between;
   align-items: center;
   min-height: 150px;
-  padding: 90px 12%;
+  padding: 90px 24%;
 }
 
 .hero-text {
@@ -97,7 +97,7 @@ nav a {
 
 /* Random Text */
 .random {
-  padding: 30px 12% 60px;
+  padding: 30px 24% 60px;
 }
 
 .random-text h1 {
@@ -134,7 +134,7 @@ nav a {
 
 /* Ispiring Text */
 .quote-main {
-  padding: 100px 14% 80px;
+  padding: 100px 22% 80px;
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
@@ -157,9 +157,9 @@ nav a {
 }
 
 .call-container {
-  margin: 9% 6%;
+  margin: 9% 8%;
   background-color: #3882f6;
-  padding: 4% 8%;
+  padding: 4% 13%;
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -198,4 +198,13 @@ nav a {
 .call-button:hover {
   background-color: white;
   color: #3882f6;
+}
+
+.footer {
+  padding: 40px 24%;
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
