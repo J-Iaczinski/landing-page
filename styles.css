@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 /* Reset e configurações globais */
 * {
   box-sizing: border-box;
@@ -12,7 +14,7 @@
   align-items: center;
   justify-content: space-between;
   color: white;
-  padding: 20px 10%;
+  padding: 20px 20%;
 }
 
 .title {
@@ -31,7 +33,7 @@
   background-color: #1f2937;
   display: flex;
   align-items: stretch;
-  padding: 120px 10%;
+  padding: 5% 20%;
   gap: 58px;
 }
 
@@ -78,4 +80,51 @@
   padding: 10px 30px;
   border: 0;
   border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 40px;
+  padding: 60px 20px;
+}
+
+.containerText h1 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.subsectionContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 52px; /* Espaço uniforme entre os 4 blocos */
+  flex-wrap: wrap;
+}
+
+.squareContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  width: 170px; /* Largura fixa para manter o bloco alinhado */
+}
+
+.squareContainer p {
+  font-size: 15px;
+  color: #656d76;
+  max-width: 170px; /* Garante que o texto respeite a largura do quadrado */
+}
+
+.squareRounded {
+  border: 4px solid #3882f6; /* Mantém a espessura e usa o azul correto */
+  border-radius: 15px;
+  width: 170px;
+  height: 170px;
+  flex-shrink: 0;
 }
