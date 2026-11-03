@@ -1,12 +1,15 @@
-# The Odin Project
+# The Odin Project - Landing Page
 
-## landing-page
+This project is part of **[The Odin Project](https://www.theodinproject.com/)** curriculum. The main objective was to create a responsive landing page according to a provided design layout.
 
-This is a Project from _The Odin Project Course_, the objettive is to make a landing page following a given layout.
+It features a simple, dynamic, fully responsive, and visually appealing layout.
 
-Simple yet very dynamic layout, resizeble and very beautifull.
+---
 
-- What i learned with this project?
-  [x] Using Flexbox layout
-  [x] Writing HTML and CSS to give the layout life.
-  [x] Learned how imporant is to have git and how use it.
+## 💡 What I Learned
+
+During this project, I practiced and improved my skills in:
+
+- [x] **Flexbox Layout:** Building dynamic and responsive layouts.
+- [x] **HTML & CSS:** Structuring and styling web pages from scratch.
+- [x] **Git & GitHub:** Managing version control and learning essential git workflows.
