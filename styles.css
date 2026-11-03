@@ -34,6 +34,7 @@
   gap: 25px;
   color: #e5e7eb;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .heroDiv {
@@ -94,7 +95,6 @@
   justify-content: center;
 }
 
-/* ================= SEÇÃO DOS QUADRADOS ================= */
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -144,7 +144,6 @@
   flex-shrink: 0;
 }
 
-/* ================= QUOTE SECTION ================= */
 .quoteContainer {
   background-color: #e5e7eb;
   padding: 80px 0;
@@ -172,4 +171,59 @@
   color: #1f2937;
   font-size: 24px;
   text-align: right;
+}
+
+.cta-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 30px;
+}
+
+.cta-container {
+  max-width: 1100px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 40px 80px;
+
+  border-radius: 10px;
+
+  background-color: #3882f6;
+}
+
+.cta-container #cta-main-txt {
+  color: #e5e7eb;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.cta-container #cta-sub-txt {
+  color: #dedfe0;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.cta-btn button {
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  padding: 10px 30px;
+  border: 3px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+section footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #1f2937;
+  color: #dedfe0;
+
+  padding: 30px;
 }
